@@ -49,6 +49,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    gap: 82px;
 }
 
 .conteiner__conteudo{
@@ -120,4 +121,24 @@ body{
 
 .imagem{
     width: 50%
+}
+
+@media (max-width: 1200px){
+    .cabecalho{
+        padding: 10%;
+    }
+
+    .cabecalho-menu{
+        justify-content: center;
+    }
+    
+    .container{
+        flex-direction: column-reverse;
+        padding: 5%;
+    }
+
+    .conteiner__conteudo{
+        width: auto;
+    }
+
 }
